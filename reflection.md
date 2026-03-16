@@ -38,7 +38,7 @@ iii. the secret number kept changing
 :- I ran the app, saw a secret, and test putting incorrect guess to verify if hints were right or not. 
 
 - Did AI help you design or understand any tests? How?
-:- Yes, AI wrote the test cases more thoroughly to check every breakpoints. 
+:- Yes, AI wrote the test cases more thoroughly to check every breakpoints.
 
 
 ---
@@ -48,7 +48,10 @@ iii. the secret number kept changing
 - In your own words, explain why the secret number kept changing in the original app.
 :- The secret number was getting converted to string. 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+
 - What change did you make that finally gave the game a stable secret number?
+:- I debugged the issue that was causing the secret number to get converted into string. 
+
 
 ---
 
@@ -56,5 +59,10 @@ iii. the secret number kept changing
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+  :- I will use copilot side by side. I will use it for testing, understanding codebase, and writing code. 
+
 - What is one thing you would do differently next time you work with AI on a coding task?
+:- I would try to find and fix the error myself and will try to take little assistance from AI. 
+
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+:- The AI did a preety good job on finding and fixing the issue. It would have taken me a very long time to fix all the issues myself. The AI made me more efficient in coding and debugging. 
