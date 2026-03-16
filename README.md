@@ -26,12 +26,19 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+=> The game is a number guessing game where some hints are provided based on a user insert a number lower or higher than the correct/sercret number. 
+
 - [ ] Detail which bugs you found.
+=> I found the following bugs:
+i. The hints were wrong
+ii. hard level has low range to guess than than the normal
+iii. the secret number kept changing
+
 - [ ] Explain what fixes you applied.
+=> I used AI assitant to fix all the bugs, separated the game logics from app.py to logic_utils.py and also updated the test cases file. 
 
 ## 📸 Demo
-
-- [ ] [Insert a screenshot of your fixed, winning game here]
+![alt text](image.png)
 
 ## 🚀 Stretch Features
 
